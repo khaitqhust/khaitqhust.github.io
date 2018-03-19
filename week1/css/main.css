@@ -1,0 +1,149 @@
+body {
+    margin: auto;
+    background-color: #ece8e81f;
+}
+
+/*
+ * Style for HEADER
+ */
+
+.header {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 500px;
+}
+
+#title {
+    /* Set position of title */
+    position: relative;
+    margin: 0px;    /* A margin relative to the parent */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 780px;
+    /* Set format */
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+
+}
+
+#avatar {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    left: 50%;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+
+/*
+ * Style of main CONTENT
+ */
+.content {
+    margin: auto;
+}
+
+/* Personal information */
+.content>.personal-information {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.content>.personal-information>#author, #time-update {
+    margin: 0;
+    font-family: "Source San Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.content>.personal-information>#author {
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.content>.personal-information>#time-update {
+    font-style: italic;
+}
+
+.content>.personal-information>hr {
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    border: solid 2px #e6e6e6;
+}
+
+/* Post-content's Style*/
+.post {
+    margin-top: 60px;
+}
+
+ol {
+    padding: 0px;
+    color: gray;
+}
+
+ol a {
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+ol .post-title {
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+ol, .post-title {
+    font-size: 36px;
+}
+
+ol a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.post-content {
+    padding-left: 40px;
+    margin: auto;
+    width: 66.67%;
+
+}
+
+.post-link, .post-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.post-text {
+    color: black;
+    line-height: 24px;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+/*
+ * Style of FOOTER
+ */
+.footer {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 30px;
+    background-color: burlywood;
+}
+
+.footer>#footer-text {
+    color: #424242;
+}
