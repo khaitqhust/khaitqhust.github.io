@@ -5,21 +5,13 @@
     <title>Title</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
-    <script type="text/javascript" src="js/js.js" defer></script>
+
     <script type="text/javascript" src="js/validate.js" defer></script>
 </head>
 <body>
 
     <div class="login-page">
         <div class="form">
-            <form class="register-form">
-                <input type="text" placeholder="name"/>
-                <input type="password" placeholder="password"/>
-                <input type="text" placeholder="email address"/>
-                <button>create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
-            </form>
-
             <!-- Login Form -->
             <form class="login-form" method="get" action="#">
                 <input type="text" placeholder="Họ tên" id="name-text"/>
@@ -31,7 +23,6 @@
                 <input type="text" placeholder="Email" id="email-text"/>
                 <p class="error-message" id="error-email"></p>
                 <button id="btn-submit" onclick="return mainValidate();">login</button>
-                <!--<input type="submit" value="login">-->
                 <p class="message">Not registered? <a href="#">Create an account</a></p>
             </form>
 
