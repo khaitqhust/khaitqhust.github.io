@@ -1,0 +1,40 @@
+html {
+    height: 90%;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+
+    background-position: center;
+    background-image: url("../images/home-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-area, #play-area {
+    text-align: center;
+}
+
+h1, p {
+    font-weight: bold;
+    color: #568fd2;
+}
+
+p {
+    font-size: 24px;
+}
+
+select, input {
+    width: 40%;
+}
+
+
+
+#play-area {
+    display: none;
+}
+
+#imgGIF {
+    display: none;
+}

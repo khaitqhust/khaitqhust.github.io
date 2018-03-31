@@ -1,0 +1,75 @@
+{
+  "albums": [
+    {
+      "id": "0",
+      "name": "Attention - Charlie Puth",
+      "url": "http://dl.music-online.ir/Latin/Charlie-Puth-Attention.mp3"
+    },
+
+    {
+      "id": "1",
+      "name": "Back My Love - Enrique Iglesias",
+      "url": "http://dl.music-online.ir/Latin/Enrique%20Iglesias%20feat.%20Ciara-Takin%27%20Back%20My%20Love.mp3"
+    },
+
+    {
+      "id": "2",
+      "name": "Friends - Justin Bieber",
+      "url": "http://dl.music-online.ir/Latin/Justin%20Bieber%20-%20Friends.mp3"
+    },
+
+    {
+      "id": "3",
+      "name": "Heart Attack - Enrique Iglesias",
+      "url": "http://dl.music-online.ir/Latin/Enrique-Iglesias-Heart-Attack.mp3"
+    },
+
+    {
+      "id": "4",
+      "name": "How long - Charlie Puth",
+      "url": "http://dl.music-online.ir/Latin/charlie%20puth%20-%20How%20Long.mp3"
+    },
+
+    {
+      "id": "5",
+      "name": "In the end - Linkin Park",
+      "url": "http://dl.music-online.ir/Latin/Linkinpark/Linkinpark%20-%20In%20The%20End.mp3"
+    },
+
+    {
+      "id": "6",
+      "name": "New Divide - Linkin Park",
+      "url": "http://dl.music-online.ir/Latin/Linkinpark/LinkinPark%20-%20New%20Divide.mp3"
+    },
+
+    {
+      "id": "7",
+      "name": "Numb - Linkin Park",
+      "url": "http://dl.music-online.ir/Latin/Linkinpark/Numb%20%28Official%20Video%29%20-%20Linkin%20Park.mp3"
+    },
+
+    {
+      "id": "8",
+      "name": "Perfect - One Direction",
+      "url": "http://dl.music-online.ir/Latin/One%20Direction%20-%20Perfect.mp3"
+    },
+
+    {
+      "id": "9",
+      "name": "Shape of you - Ed Sheeran",
+      "url": "http://dl.music-online.ir/Latin/Ed-Sheeran-Shape-Of-You.mp3"
+    },
+
+    {
+      "id": "10",
+      "name": "We don't talk anymore - CharliePuth Ft. Selena Gomez",
+      "url": "http://dl.music-online.ir/Latin/Charlie-Puth-Ft.-Selena-Gomez-We-Dont-Talk-Anymore.mp3"
+    },
+
+    {
+      "id": "11",
+      "name": "What do you mean (REMIX) - Justin Bieber",
+      "url": "http://dl.music-online.ir/Latin/Justin-Bieber-What-Do-You-Mean-REMIX.mp3"
+    }
+  ]
+}
