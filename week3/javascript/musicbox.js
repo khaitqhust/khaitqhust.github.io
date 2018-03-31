@@ -1,6 +1,7 @@
 /*
  * Get element from html
  */
+const $body = document.getElementsByTagName("body")[0];
 const $homeArea = document.getElementById('home-area');
 const $playArea = document.getElementById('play-area');
 const $selectMusic = document.getElementById('select-music');
@@ -56,7 +57,7 @@ function requestGIPHY(url) {
  * Main Function
  * Read json file & Handler button's events
  */
-fetch('list.json')
+fetch('./resource/list.json')
     .then(response => response.json())
     .then((jsonResponse) => {
         let listSong = jsonResponse.albums;
@@ -87,6 +88,8 @@ fetch('list.json')
                 requestGIPHYPromise.then((jsonResponse) => {
                     let urlImage = jsonResponse.data.image_url;
                     $imgGIF.src = urlImage;
+                    $body.style.backgroundImage = 'none';
+
                     $imgGIF.style.display = 'block';
                     audio.src = urlAudio;
                     audio.play();
@@ -101,6 +104,9 @@ fetch('list.json')
             audio.currentTime = 0;
             $imgGIF.src = '';
             $imgGIF.style.display = 'none';
+
+            $body.style.backgroundImage = "url('./images/home-background.jpg')";
+            $tagText.value = "";
             $playArea.style.display = 'none';
             $homeArea.style.display = 'block';
 
