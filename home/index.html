@@ -11,60 +11,39 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="css/owl.carousel.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="css/themify-icons.css">
-    <!--<link rel="stylesheet" href="css/magnific-popup.css">-->
-    <!--<link rel="stylesheet" href="css/animate.css">-->
-    <!-- Main-Stylesheets -->
-    <!--<link rel="stylesheet" href="css/normalize.css">-->
-    <link rel="stylesheet" href="style.css">
-    <!--<link rel="stylesheet" href="css/responsive.css">-->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<body data-spy="scroll" data-target="#primary-menu">
-
-    <!-- Pre loader -->
-    <!--<div class="preloader">-->
-        <!--<div class="sk-folding-cube">-->
-            <!--<div class="sk-cube1 sk-cube"></div>-->
-            <!--<div class="sk-cube2 sk-cube"></div>-->
-            <!--<div class="sk-cube4 sk-cube"></div>-->
-            <!--<div class="sk-cube3 sk-cube"></div>-->
-        <!--</div>-->
-    <!--</div>-->
-
+<body data-spy="scroll" data-target="#primary-menu" data-offset="100">
     <!--Mainmenu-area-->
     <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
         <div class="container">
-            <!--Logo-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand logo">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="primary-menu">
+                <a class="navbar-brand" href="#">
                     <h2>BK ASK FORUM</h2>
                 </a>
-            </div>
-            <!--Logo/-->
-
-
-            <nav class="collapse navbar-collapse" id="primary-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#question-page">Question</a></li>
-                    <li><a href="#category-page">Category</a></li>
-                    <li><a href="#goldmember-page">Gold Member</a></li>
-                    <li><a href="#team-page">Team</a></li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home-page">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#question-page">Question</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#category-page">Category</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#goldmember-page">Gold Member</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team-page">Team</a></li>
+                    </ul>
+                </div>
             </nav>
+
         </div>
     </div>
     <!--Mainmenu-area/-->
-
 
 
     <!--Header-area-->
@@ -78,31 +57,10 @@
                     <p>Tham gia ngay vào hệ thống hỏi đáp lớn nhất Vịnh Bắc Bộ với hàng chục thành viên trải rộng trên tất các ngôn ngữ lập trình dù mới hay cũ, tù Pascal đến Java, C#, JS - Tất cả đều có thể được giải đáp tại BK Ask Forum </p>
                     <a href="#" class="button white">Login Now</a>
                 </div>
-                <!--&lt;!&ndash; Slider &ndash;&gt;-->
-                <!--<div class="hidden-xs hidden-sm col-md-5 text-right">-->
-                    <!--<div class="screen-box screen-slider">-->
-                        <!--<div class="item">-->
-                            <!--<img src="images/screen-1.jpg" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<img src="images/screen-2.jpg" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<img src="images/screen-3.jpg" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<img src="images/screen-4.jpg" alt="">-->
-                        <!--</div>-->
-                        <!--<div class="item">-->
-                            <!--<img src="images/screen-5.jpg" alt="">-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
             </div>
         </div>
     </header>
     <!--Header-area/-->
-
 
 
     <!--Question-area-->
@@ -224,63 +182,39 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
+                    <div class="gold-member">
+                        <div class="member-photo">
                             <img src="images/team-section-1.png" alt="">
                         </div>
                         <h4>GOLD 1</h4>
                         <h6>Co. Founder</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
+                    <div class="gold-member">
+                        <div class="member-photo">
                             <img src="images/team-section-2.png" alt="">
                         </div>
                         <h4>GOLD 2</h4>
                         <h6>UX Designer</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
+                    <div class="gold-member">
+                        <div class="member-photo">
                             <img src="images/team-section-3.png" alt="">
                         </div>
                         <h4>GOLD 3</h4>
                         <h6>Founder</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
+                    <div class="gold-member">
+                        <div class="member-photo">
                             <img src="images/team-section-4.png" alt="">
                         </div>
                         <h4>GOLD 4</h4>
                         <h6>Creative Director</h6>
-                        <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -288,9 +222,7 @@
     </section>
 
 
-
-
-    <section class="testimonial-area section-padding gray-bg overlay" id="team-page">
+    <section class="team-area section-padding gray-bg overlay" id="team-page">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
@@ -301,48 +233,51 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <div class="testimonials">
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-1.png" alt="">
-                            </div>
-                            <h3>Nguyễn Anh Tuấn</h3>
-                            <p>Web Developer - Spring</p>
-                            <p>Thành phần cân team, đảm bảo server luôn phục vụ tốt đến tất cả các anh em thành viên</p>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="team">
+                        <div class="team-photo">
+                            <img src="images/avatar-small-1.png" alt="">
                         </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-2.png" alt="">
-                            </div>
-                            <h3>Nguyễn Văn Trọng</h3>
-                            <p>Web Developer - Master AngularJS</p>
-                            <p>Cũng tương tự như Tuấn, Trọng tham gia nhóm với tinh thần cân team là chính</p>
+                        <h4>Nguyễn Anh Tuấn</h4>
+                        <p>Back-end Developer - Spring</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="team">
+                        <div class="team-photo">
+                            <img src="images/avatar-small-1.png" alt="">
                         </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-3.png" alt="">
-                            </div>
-                            <h3>Mai Tiến Dũng</h3>
-                            <p>Leader - Designer</p>
-                            <p>Leader của team - Kêu gọi đầu tư cho đội ngũ phát triển</p>
+                        <h4>Nguyễn Văn Trọng</h4>
+                        <p>Front-end Developọnger - Master AngularJS</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="team">
+                        <div class="team-photo">
+                            <img src="images/avatar-small-1.png" alt="">
                         </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-4.png" alt="">
-                            </div>
-                            <h3>Hà Thế Đăng</h3>
-                            <p>Web Developer - Junior</p>
-                            <p>Thành viên thứ 4 của team - Và Arsenal cũng là đội bóng ưa thích của anh</p>
+                        <h4>Hà Thế Đăng</h4>
+                        <p>Full-Stack Developer</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="team">
+                        <div class="team-photo">
+                            <img src="images/avatar-small-1.png" alt="">
                         </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-5.png" alt="">
-                            </div>
-                            <h3>Trần Quang Khải</h3>
-                            <p>Web Developer</p>
-                            <p>Thành viên giấu mặt</p>
+                        <h4>Trần Quang Khải</h4>
+                        <p>Nothing to show</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="team">
+                        <div class="team-photo">
+                            <img src="images/avatar-small-1.png" alt="">
                         </div>
+                        <h4>Mai Tiến Dũng</h4>
+                        <p>Leader</p>
                     </div>
                 </div>
             </div>
@@ -354,7 +289,13 @@
         <div class="footer-middle">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 pull-right">
+                    <div class="col-xs-12 col-sm-6">
+                        <p style="font-style: italic">"Vói sứ mệnh đem CNTT đến gần hơn với mọi người, chúng tôi cho ra đời BK Ask Forum như là một diễn đàn hỏi
+                            đáp các vấn đề liên quan đến ngành, các kĩ thuật lập trình, công nghệ mới, tiên tiến nhất, với tham vọng
+                            trở thành StackOverFlow của Việt Nam"</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 ">
                         <ul class="social-menu text-right x-left">
                             <li><a href="#"><i class="ti-facebook"></i></a></li>
                             <li><a href="#"><i class="ti-twitter"></i></a></li>
@@ -363,11 +304,7 @@
                             <li><a href="#"><i class="ti-github"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Vói sứ mệnh đem CNTT đến gần hơn với mọi người, BK Ask Forum ra đời như là một diễn đàn hỏi
-                        đáp các vấn đề liên quan đến ngành, các kĩ thuật lập trình, công nghệ mới, tiên tiến nhất, với tham vọng
-                        trở thành StackOverFlow của Việt Nam</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -383,21 +320,16 @@
     </footer>
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
 
-
-
-    <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <!--<script src="js/owl.carousel.min.js"></script>-->
-    <!--<script src="js/contact-form.js"></script>-->
-    <!--<script src="js/jquery.parallax-1.1.3.js"></script>-->
-    <!--<script src="js/scrollUp.min.js"></script>-->
-    <!--<script src="js/magnific-popup.min.js"></script>-->
-    <!--<script src="js/wow.min.js"></script>-->
-    <!--Main-active-JS-->
-    <!--<script src="js/main.js"></script>-->
 </body>
 
 </html>
